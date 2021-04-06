@@ -2,7 +2,10 @@
   <div id="neighbouring_countries">
   
     <ul id="neighbouring_countries">
-      <li>{{neighbouringCountry.name}}</li>
+      <li>
+       <p>{{neighbouringCountry.name}}</p>
+       <img :src="neighbouringCountry.flag" class="med-flag">
+      </li>
     </ul>
   </div>
 </template>

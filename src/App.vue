@@ -75,9 +75,9 @@ export default {
 </script>
 
 <style>
-.small-flag {
-  height: 20px
-}
+
+
+
 
 
 

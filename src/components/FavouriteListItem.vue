@@ -1,7 +1,10 @@
 <template lang="html">
   <div id="favourite_countries">
     
-    <li >{{favouriteCountry.name}}</li>
+    <li>
+      <p>{{favouriteCountry.name}}</p>
+      <img :src="favouriteCountry.flag" class="small-flag">
+    </li>
 
 
   </div>
@@ -15,4 +18,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
+.small-flag {
+  height: 20px
+}
 </style>
